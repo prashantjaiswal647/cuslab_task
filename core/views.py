@@ -72,6 +72,8 @@ class AccountAPI(APIView):
         return Response({ 'status': 200 , 'payload': serializer.data , 'message': 'you sent'})
 
         
+
+
          
 
     def patch(self, request):
